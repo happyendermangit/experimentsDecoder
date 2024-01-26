@@ -1,0 +1,4464 @@
+[
+    {
+        "hash": 3363020987,
+        "revision": 1,
+        "populations": [
+            {   
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1405831955,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 4750
+                            },
+                            {
+                                "start": 4750,
+                                "end": 5200
+                            },
+                            {
+                                "start": 5200,
+                                "end": 5700
+                            },
+                            {
+                                "start": 5700,
+                                "end": 6200
+                            },
+                            {
+                                "start": 6200,
+                                "end": 7200
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 7200,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1405831955
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2653930115,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2780791286,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "281683040739262465",
+                "816784679717044276",
+                "814669604840013874",
+                "834876967656489020",
+                "21154681615024128",
+                "822219052402606132",
+                "877393448309772319",
+                "981258149317185616",
+                "958076720819372044",
+                "876918412369088582",
+                "760598239606341673",
+                "520070086158057513",
+                "910971430122971247",
+                "997637077099364383",
+                "816074230474735666",
+                "852642429105995786",
+                "1016836116273430539"
+            ]
+        }
+    },
+    {
+        "hash": 2009396848,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "PARTNERED",
+                            "VERIFIED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "733525406203773049"
+            ]
+        }
+    },
+    {
+        "hash": 3579083301,
+        "revision": 8,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 8000
+                            },
+                            {
+                                "start": 8000,
+                                "end": 9000
+                            },
+                            {
+                                "start": 9000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3579083301
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 59132052,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "808870572401754153"
+            ]
+        }
+    },
+    {
+        "hash": 3607703918,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 4030301365,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 3333,
+                                "end": 6666
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 6666,
+                                "end": 9999
+                            },
+                            {
+                                "start": 9999,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "882680660588904448",
+                "882703776794959873",
+                "859533785225494528",
+                "859533828754505741"
+            ]
+        }
+    },
+    {
+        "hash": 1643537656,
+        "revision": 3,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 436093779,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 436093779
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1107510295,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 3333
+                            },
+                            {
+                                "start": 3333,
+                                "end": 6666
+                            },
+                            {
+                                "start": 6666,
+                                "end": 9999
+                            },
+                            {
+                                "start": 9999,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "882680660588904448"
+            ]
+        }
+    },
+    {
+        "hash": 1926000171,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "0": [
+                "21154681615024128"
+            ],
+            "1": [
+                "842461512206516224",
+                "882680660588904448"
+            ]
+        }
+    },
+    {
+        "hash": 4089758233,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 4200595067,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 770139301
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3832113202,
+        "revision": 4,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "0": [
+                "814669604840013874"
+            ],
+            "2": [
+                "1064959560890204271"
+            ]
+        }
+    },
+    {
+        "hash": 2445595452,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "834846951068532756",
+                "880225006615932928",
+                "880225048194072576",
+                "880225097162588241",
+                "872631710032990268",
+                "815369174096412692"
+            ]
+        }
+    },
+    {
+        "hash": 1412337990,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "799349358776549378",
+                "763838479293349899"
+            ]
+        }
+    },
+    {
+        "hash": 3811644885,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3674963204,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 100,
+                                "end": 200
+                            },
+                            {
+                                "start": 200,
+                                "end": 300
+                            },
+                            {
+                                "start": 300,
+                                "end": 400
+                            },
+                            {
+                                "start": 400,
+                                "end": 600
+                            },
+                            {
+                                "start": 600,
+                                "end": 800
+                            },
+                            {
+                                "start": 800,
+                                "end": 1200
+                            },
+                            {
+                                "start": 1200,
+                                "end": 1600
+                            },
+                            {
+                                "start": 1600,
+                                "end": 4000
+                            },
+                            {
+                                "start": 4000,
+                                "end": 6500
+                            },
+                            {
+                                "start": 6500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "DISCOVERABLE"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "951951155175489606",
+                "937840859544682529",
+                "953754308971733103",
+                "522477306787397642",
+                "803241158054510612",
+                "647509637821628422",
+                "712111817333407824",
+                "710659351576182915",
+                "302094807046684672",
+                "958150409208365146",
+                "290843998296342529",
+                "595999872222756885",
+                "417739215355510784",
+                "378662079361449994",
+                "877239953174691910",
+                "1009955672546345021",
+                "1011361906616979496",
+                "994727054190854314"
+            ]
+        }
+    },
+    {
+        "hash": 3510816342,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 754016061,
+        "revision": 3,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "BOT_DEVELOPER_EARLY_ACCESS"
+                        ]
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 1
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 26
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 1
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 200
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 200
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": null
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "814196235741167637"
+            ]
+        }
+    },
+    {
+        "hash": 1574506570,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "281683040739262465",
+                "814196235741167637",
+                "822219052402606132",
+                "21154681615024128",
+                "834846951068532756",
+                "847184799365857331",
+                "862757171887603722"
+            ]
+        }
+    },
+    {
+        "hash": 1990672009,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "908114392263049277"
+            ]
+        }
+    },
+    {
+        "hash": 1737811563,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "908114392263049277",
+                "747490489384829059",
+                "976593171834351728",
+                "979437427456364574",
+                "212635560596996097",
+                "211228845771063296",
+                "825852143478636554",
+                "930534056200929290",
+                "756644176610721842",
+                "424012709219008522",
+                "443584877829554177",
+                "262030232683413504",
+                "200837505145110528",
+                "739299507795132486",
+                "703067018416619522"
+            ]
+        }
+    },
+    {
+        "hash": 4019729001,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "DISCOVERABLE"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "953754308971733103"
+            ]
+        }
+    },
+    {
+        "hash": 258580919,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540"
+            ]
+        }
+    },
+    {
+        "hash": 179711638,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "6": [
+                "908114392263049277",
+                "443584877829554177",
+                "223070469148901376",
+                "224565836277481473",
+                "488444879836413975",
+                "756644176610721842"
+            ]
+        }
+    },
+    {
+        "hash": 3683063649,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "PARTNERED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "763838479293349899",
+                "651597514407018516",
+                "897162092652683314",
+                "270301680212508673",
+                "403312145938382849",
+                "816784679717044276",
+                "991365865532575844"
+            ]
+        }
+    },
+    {
+        "hash": 1055563741,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1055563741
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 944104242,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "VOICE_IN_THREADS"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2105552695,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3723449866,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3000
+                            },
+                            {
+                                "start": 3000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540",
+                "1045109153582022727",
+                "1047953830979047455",
+                "84764735832068096"
+            ]
+        }
+    },
+    {
+        "hash": 1804122827,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2457903107,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 4000,
+                                "end": 6000
+                            }
+                        ]
+                    },
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 6000,
+                                "end": 8000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 2000
+                            },
+                            {
+                                "start": 8000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY_EXP_LARGE_UNGATED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 4000,
+                                "end": 6000
+                            }
+                        ]
+                    },
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 6000,
+                                "end": 8000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 2000
+                            },
+                            {
+                                "start": 8000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY_EXP_LARGE_GATED"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1443876045,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "959544916848029716",
+                "966095003136983121",
+                "968232043714588703",
+                "959195654813532202",
+                "949396043743789116",
+                "954473884273496124",
+                "1042148168726487101"
+            ]
+        }
+    },
+    {
+        "hash": 24149521,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "979437427456364574",
+                "958135532590874704",
+                "893264120722370570",
+                "1042148168726487101",
+                "1042185536984592577",
+                "1042521715630166056",
+                "488444879836413975",
+                "424012709219008522",
+                "223070469148901376",
+                "359039577362530314",
+                "703067018416619522",
+                "736744916012630046",
+                "930534056200929290",
+                "349309639181074433",
+                "356833056562348042",
+                "378662079361449994",
+                "697694775561945109",
+                "742765599738036275",
+                "936663832070340678",
+                "816393875027394642"
+            ]
+        }
+    },
+    {
+        "hash": 3636231100,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "816784679717044276",
+                "763838479293349899",
+                "435572461912719360",
+                "1044378460296061008",
+                "876918412369088582",
+                "1044721355821678662",
+                "1034492236483792958",
+                "912834371034181642",
+                "809846768074227723",
+                "999116324842246224",
+                "987012965834297405",
+                "942897714956472401",
+                "169256939211980800",
+                "987122927000494131"
+            ]
+        }
+    },
+    {
+        "hash": 848173753,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 848173753
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 987884927,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 987884927
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2462216785,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 5000
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": null
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540",
+                "435572461912719360",
+                "1042197875423203391",
+                "1042198489783865384",
+                "1042199171073060864",
+                "1042202474200698990",
+                "1044297931039199233",
+                "999116324842246224",
+                "987012965834297405"
+            ]
+        }
+    },
+    {
+        "hash": 2507971540,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 9000
+                            },
+                            {
+                                "start": 9000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2507971540
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1318029053,
+        "revision": 3,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "PARTNERED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1034492236483792958",
+                "982376986070626344",
+                "1022242080233357352",
+                "1052692953279246487",
+                "763838479293349899",
+                "1044721355821678662",
+                "1052695012732850206",
+                "816784679717044276",
+                "1053018122531127448",
+                "1054503586761035906",
+                "876918412369088582",
+                "1054511748557840404",
+                "1054512414709788842",
+                "1054515966035365960",
+                "1054565950759899176",
+                "1039940765750665226"
+            ]
+        }
+    },
+    {
+        "hash": 280866660,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "SHARED_CANVAS_FRIENDS_AND_FAMILY_TEST"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1078807279979221032",
+                "942879381230063656",
+                "172056827335409665",
+                "993957185493160057",
+                "334452829731422209",
+                "225077695141117955",
+                "678742032415588412",
+                "460657173417164800",
+                "976581767068786728",
+                "426609467535392778",
+                "133838756447911936",
+                "175987125626339328",
+                "537070934553526272",
+                "862059423949127741",
+                "710677407257854033",
+                "132751006349000704",
+                "822219052402606132",
+                "1021074787025555567",
+                "900242963358179368",
+                "315263844207558671",
+                "862757171887603722",
+                "222852163368386560",
+                "696480667348893696",
+                "409190184744255490",
+                "764656846777745429"
+            ]
+        }
+    },
+    {
+        "hash": 3320756132,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2014775304,
+        "revision": 3,
+        "populations": [
+            {
+                "buckets": {
+                    "4": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 100
+                            },
+                            {
+                                "start": 200,
+                                "end": 600
+                            }
+                        ]
+                    },
+                    "4": {
+                        "rollout": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            },
+                            {
+                                "start": 600,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 1500
+                            },
+                            {
+                                "start": 1500,
+                                "end": 2000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 2000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "4": [
+                "886812261455368233",
+                "315263844207558671",
+                "268982240569065472",
+                "1007668375159320607",
+                "943265993613008967",
+                "992539246835535943",
+                "1008822885378433105",
+                "1001114660524806205",
+                "1037856262144135230",
+                "642500834516664331",
+                "900193715962912819",
+                "533420789547139077",
+                "928454829079138344",
+                "169256939211980800",
+                "348185509484298240",
+                "132251458665054209",
+                "942897714956472401",
+                "917594655414181898",
+                "775023113645064253",
+                "1009606240546066473",
+                "81384788765712384",
+                "1073747669937299567",
+                "401220874742661121"
+            ]
+        }
+    },
+    {
+        "hash": 2001176293,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "876918412369088582",
+                "860609921602682910",
+                "942897714956472401",
+                "771800742977077289",
+                "434445105982865408",
+                "169256939211980800",
+                "613425648685547541",
+                "1088225778442960917",
+                "662341325353385985",
+                "994171988425850901",
+                "943680870966001664",
+                "1009937213603188777",
+                "896730415317016596"
+            ],
+            "10": [
+                "816784679717044276"
+            ]
+        }
+    },
+    {
+        "hash": 1727857487,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "GUILD_ONBOARDING_HAS_PROMPTS"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1103064168459927674",
+                "227251386738409483",
+                "313840371274874880",
+                "1104138316418400286",
+                "295820647660257283",
+                "1029604342589833286",
+                "426434256290578472",
+                "838840935404011560",
+                "651595875897835540",
+                "1074777828672929852",
+                "922748688403693578",
+                "119138216639987713"
+            ]
+        }
+    },
+    {
+        "hash": 2544556038,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY_CANARY"
+                        ]
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY_CANARY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2544556038
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3884904940,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3884904940
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 748249793,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 748249793
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1504498621,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "SUMMARIES_ENABLED_GA"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 295820329,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3101260054,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 1
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 50
+                    }
+                ]
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 4083096281,
+        "revision": 3,
+        "populations": [
+            {
+                "buckets": {
+                    "5": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "860609921602682910",
+                "993957185493160057"
+            ],
+            "3": [
+                "856605399154688045"
+            ],
+            "5": [
+                "1137085468287172620",
+                "1153731881238548480",
+                "847184799365857331",
+                "743397937870143559",
+                "869267695911194645",
+                "1014406560954466384",
+                "1064959560890204271",
+                "869772539071713340",
+                "1090403397204713603",
+                "690040107322966037"
+            ]
+        }
+    },
+    {
+        "hash": 747043176,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3890564237,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "BOT_DEVELOPER_EARLY_ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "CREATOR_MONETIZABLE_DISABLED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 2500
+                            },
+                            {
+                                "start": 2500,
+                                "end": 3000
+                            },
+                            {
+                                "start": 3000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "ROLE_SUBSCRIPTIONS_ENABLED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "CREATOR_MONETIZABLE_PROVISIONAL"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "963913819418161182",
+                "1042148168726487101",
+                "816784679717044276",
+                "803095016154071093",
+                "612443491770957833",
+                "706356477765353563",
+                "814669604840013874",
+                "997637077099364383",
+                "996467211323592724",
+                "443584877829554177",
+                "844508269840957460",
+                "756644176610721842",
+                "84789673121038336",
+                "805831366406438912",
+                "106650112222060544",
+                "804414667551670335",
+                "310723715447128064",
+                "585577383847788554",
+                "985363294221123594",
+                "530119670133555210",
+                "964645662866173972",
+                "915336728707989534",
+                "1095810146761973830",
+                "1116793467654381685",
+                "1129250560328093826"
+            ]
+        }
+    },
+    {
+        "hash": 1640064366,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1080899969243943072",
+                "763838479293349899"
+            ]
+        }
+    },
+    {
+        "hash": 280214844,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 280214844
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1489979462,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 3500
+                            },
+                            {
+                                "start": 3500,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 6000
+                            },
+                            {
+                                "start": 6000,
+                                "end": 7500
+                            },
+                            {
+                                "start": 7500,
+                                "end": 8000
+                            },
+                            {
+                                "start": 8000,
+                                "end": 9000
+                            },
+                            {
+                                "start": 9000,
+                                "end": 9500
+                            },
+                            {
+                                "start": 9500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1489979462
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2182959876,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3738976194,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3738976194
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 485475819,
+        "revision": 4,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3194028601,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1042521715630166056"
+            ]
+        }
+    },
+    {
+        "hash": 808859253,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "3": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "GUILD_ROLE_SUBSCRIPTION_TIER_TEMPLATE"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "3": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "ROLE_SUBSCRIPTIONS_ENABLED"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1042148168726487101",
+                "1042521715630166056",
+                "954473884273496124",
+                "893264120722370570",
+                "1098703291694710836",
+                "963913819418161182",
+                "954477686967922778",
+                "1063878083322585088",
+                "706356477765353563"
+            ],
+            "3": [
+                "949396043743789116",
+                "1053361203738591262",
+                "1103781094203072632",
+                "494673764601036840",
+                "458369608655831050",
+                "217055651371679745",
+                "752560653939638334",
+                "577158348068093982",
+                "585190878151311373",
+                "986205117357363240",
+                "334891772696330241",
+                "719579184023863378",
+                "212435931766980609",
+                "725341600670023700"
+            ]
+        }
+    },
+    {
+        "hash": 3964855818,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 2000,
+                                "end": 4000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 4000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540"
+            ]
+        }
+    },
+    {
+        "hash": 4063488887,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY_CANARY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3045613474,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2710924848,
+        "revision": 4,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "840296607785287763",
+                "435572461912719360",
+                "779781184665944104",
+                "226576492782551042",
+                "679875946597056683",
+                "303681520202285057",
+                "595922668876857364",
+                "424012709219008522",
+                "942646368453935204",
+                "880928798718173224",
+                "874345844743213126",
+                "981721840697360444",
+                "1021478553033920544"
+            ]
+        }
+    },
+    {
+        "hash": 41612842,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540",
+                "876918412369088582",
+                "1105576287197724786",
+                "1105576346555523218",
+                "1105576413635039282",
+                "1105576433633472532",
+                "1105576549056528457",
+                "1105576609928445964",
+                "1105576653742166106",
+                "1039940765750665226",
+                "1105952274511057058",
+                "1105952651960668323",
+                "1105953713673228358",
+                "1105953777212739716",
+                "816784679717044276",
+                "1114255235704180746"
+            ]
+        }
+    },
+    {
+        "hash": 2236798974,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "GUILD_PRODUCTS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2500
+                            },
+                            {
+                                "start": 2500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 1000
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 100000
+                    },
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "949396043743789116",
+                "1118659913523151010",
+                "1042148168726487101",
+                "1160745391231336478",
+                "1075531421554180096",
+                "706356477765353563",
+                "996817886695927808",
+                "954473884273496124",
+                "1049530956337389668",
+                "1017156457172566096",
+                "1147344175231152138",
+                "1020442522767597638",
+                "978435771507802162",
+                "510301158716342293",
+                "239599059415859200",
+                "424012709219008522",
+                "336430784204505098",
+                "811348849850581002",
+                "694209447995768833",
+                "538202802770542604",
+                "563549788063268875",
+                "332333431885135874",
+                "1102986978892460148",
+                "1074968324468899851",
+                "53690199142563851"
+            ]
+        }
+    },
+    {
+        "hash": 2701598838,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 7500
+                            },
+                            {
+                                "start": 7500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2701598838
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 603648674,
+        "revision": 7,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 695300504,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 695300504
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3143066071,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 5000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3143066071
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 4195647747,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 4195647747
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1487316075,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 1487316075
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3041932109,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 3041932109
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 386483746,
+        "revision": 10,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 6000
+                            },
+                            {
+                                "start": 6000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 200
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": null
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 386483746
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 200
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": null
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 6000
+                            },
+                            {
+                                "start": 6000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 386483746
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 1000
+                            },
+                            {
+                                "start": 1000,
+                                "end": 2000
+                            },
+                            {
+                                "start": 2000,
+                                "end": 6000
+                            },
+                            {
+                                "start": 6000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 386483746
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2803184680,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1006683917803323545",
+                "1064959560890204271",
+                "834846951068532756",
+                "814669604840013874",
+                "281683040739262465",
+                "343128759773298700",
+                "697694775561945109",
+                "519570807006167051",
+                "942897714956472401",
+                "766810886613762099",
+                "673730324047462449",
+                "524552788932558848"
+            ]
+        }
+    },
+    {
+        "hash": 2104400771,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 5000
+                            },
+                            {
+                                "start": 5000,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "hash_key": 2104400771
+                    },
+                    {
+                        "type": "guild_in_range_by_hash",
+                        "target": 10000
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2716650836,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 3
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 200
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2225390567,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 2119968730,
+        "revision": 4,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540",
+                "435572461912719360",
+                "1011408760490692768",
+                "763838479293349899",
+                "809846768074227723",
+                "1149072796383711313",
+                "635413437647683596",
+                "996817886695927808"
+            ]
+        }
+    },
+    {
+        "hash": 3482606388,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3768642622,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "942897714956472401",
+                "169256939211980800",
+                "613425648685547541",
+                "763838479293349899",
+                "890163015561932840"
+            ]
+        }
+    },
+    {
+        "hash": 2478854553,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1106398370580406354",
+                "874345844743213126"
+            ],
+            "2": [
+                "840296607785287763",
+                "1076244506703311049",
+                "1113529666989469708",
+                "1136423398608744588",
+                "814669604840013874",
+                "454720872335278084",
+                "1184629771800432793"
+            ]
+        }
+    },
+    {
+        "hash": 3080965400,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 100,
+                                "end": 200
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 200,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 1
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 200
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "840296607785287763",
+                "1136423398608744588",
+                "1106398370580406354",
+                "874345844743213126",
+                "1076244506703311049",
+                "1113529666989469708"
+            ]
+        }
+    },
+    {
+        "hash": 2254848082,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "1042148168726487101",
+                "954473884273496124",
+                "1042521715630166056",
+                "802284684377325568",
+                "1013234496092524636",
+                "1082392097254023199",
+                "760598239606341673",
+                "943265993613008967",
+                "106446612754100224",
+                "647192526788362241",
+                "1021478553033920544",
+                "363154169294618625",
+                "176502497534410761",
+                "1025866957821595780",
+                "743213213142876203"
+            ]
+        }
+    },
+    {
+        "hash": 1865413295,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "763838479293349899"
+            ]
+        }
+    },
+    {
+        "hash": 2766349394,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540"
+            ]
+        }
+    },
+    {
+        "hash": 1570379293,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 0
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 200
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "1": [
+                "872892246494691338",
+                "847184799365857331",
+                "1174133402203607131",
+                "743397937870143559"
+            ]
+        }
+    },
+    {
+        "hash": 1769978089,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "INTERNAL_EMPLOYEE_ONLY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540"
+            ]
+        }
+    },
+    {
+        "hash": 1431352750,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1765194502,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "1": [
+                "651595875897835540",
+                "1147344175231152138",
+                "949396043743789116"
+            ]
+        }
+    },
+    {
+        "hash": 1689901851,
+        "revision": 0,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 1485389700,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_has_feature",
+                        "guild_features": [
+                            "COMMUNITY"
+                        ]
+                    }
+                ]
+            },
+            {
+                "buckets": {
+                    "1": {
+                        "rollout": [
+                            {
+                                "start": 2500,
+                                "end": 5000
+                            }
+                        ]
+                    },
+                    "3": {
+                        "rollout": [
+                            {
+                                "start": 5000,
+                                "end": 7500
+                            }
+                        ]
+                    },
+                    "5": {
+                        "rollout": [
+                            {
+                                "start": 7500,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 0
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 200
+                    }
+                ]
+            }
+        ],
+        "overrides": {}
+    },
+    {
+        "hash": 3997016690,
+        "revision": 1,
+        "populations": [
+            {
+                "buckets": {
+                    "2": {
+                        "rollout": [
+                            {
+                                "start": 8000,
+                                "end": 10000
+                            }
+                        ]
+                    },
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 8000
+                            }
+                        ]
+                    }
+                },
+                "filters": [
+                    {
+                        "type": "guild_member_count_range",
+                        "min_id": 2
+                    },
+                    {
+                        "type": "guild_member_count_range",
+                        "max_id": 50
+                    }
+                ]
+            }
+        ],
+        "overrides": {
+            "2": [
+                "1136423398608744588",
+                "705666251560583168",
+                "993957185493160057",
+                "1166858631170494604",
+                "858926570113728543",
+                "1157495187275255848",
+                "886315327229677628",
+                "780875876325261352",
+                "1112849445814554727",
+                "1150848592945352766",
+                "606514965565931531",
+                "1142537243542696008",
+                "739519334669484074",
+                "751564306142986360",
+                "176502497534410761",
+                "363154169294618625",
+                "663155546471268378",
+                "108806998211969024",
+                "313840371274874880",
+                "750184906981638214",
+                "499817104422207519",
+                "1156681801700491334",
+                "877357265034805298",
+                "936317138904440892"
+            ]
+        }
+    },
+    {
+        "hash": 3182686365,
+        "revision": 7,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {
+            "2": [
+                "37711544032690177",
+                "48250781844901888",
+                "680537436412969111",
+                "881066542639484958",
+                "1151305620369199144",
+                "1136423398608744588",
+                "1176291441597743186",
+                "1162447812324237313",
+                "1184629771800432793"
+            ]
+        }
+    },
+    {
+        "hash": 2961250399,
+        "revision": 2,
+        "populations": [
+            {
+                "buckets": {
+                    "-1": {
+                        "rollout": [
+                            {
+                                "start": 0,
+                                "end": 10000
+                            }
+                        ]
+                    }
+                },
+                "filters": []
+            }
+        ],
+        "overrides": {}
+    }
+]
