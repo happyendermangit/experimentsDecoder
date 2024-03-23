@@ -64,6 +64,7 @@ function decodeExperiment(experiment){
     })
     decodedExperiment.populations = populations
     decodedExperiment.overrides = overrides
+    decodedExperiment.aaMode = experiment.pop()
     console.log(JSON.stringify(decodedExperiment,null,4))
     return decodedExperiment
 }
